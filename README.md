@@ -2,6 +2,8 @@
 
 This plugin adds a pagination helper function for [ORM](http://dresende.github.io/node-orm2).
 
+This is [jnduan's](https://github.com/jnduan/node-orm-paging) fix of [node-orm-paging](https://github.com/dresende/node-orm-paging). I'm putting it up as a package because [dresende](https://github.com/dresende) has been inactive and hadn't merged the pull request.
+
 ## Dependencies
 
 Of course you need `orm` to use it. Other than that, no more dependencies.
