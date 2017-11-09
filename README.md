@@ -11,7 +11,7 @@ Of course you need `orm` to use it. Other than that, no more dependencies.
 ## Install
 
 ```sh
-npm install orm-paging
+npm install orm-paging2
 ```
 
 ## DBMS Support
@@ -29,7 +29,7 @@ Model.page([conditions, ]page)  // get page
 
 ```js
 var orm = require("orm");
-var paging = require("orm-paging");
+var paging = require("orm-paging2");
 
 orm.connect("mysql://username:password@host/database", function (err, db) {
 	if (err) throw err;
